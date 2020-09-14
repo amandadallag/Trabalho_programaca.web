@@ -2,7 +2,7 @@
 
 body, h1{
     margin:0%;
-    font-family: 'Roboto', sans-serif;
+    font-family: serif;
 }
 
 
@@ -11,8 +11,9 @@ body, h1{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #008080;
+    color: #37BFC4;
 }
+
 
  li{
     float: right;
@@ -26,11 +27,11 @@ li a {
     text-decoration: none;
 }
 li a:hover:not(.active) {
-    background-color: #076d6dc4;
+    background-color: #37BFC4;
 }
 .active {
-    background-color: #008080;
-    font-size: 22px;
+    background-color: #37BFC4;
+    font-size: 10px;
   }
 .logo{
     margin-top:50px;
@@ -42,17 +43,17 @@ nav {
     position: relative;
     width: 100%;
     height: 50px;
-    background: #008080;
+    background: #37BFC4;
 }
 
 #principal {
     width: 100%;
     height: 300px;
-    background: #daedf4;
+    background-color: rgb(198, 237, 250);
     padding-top: 100px;
 }
 #principal h1{
-    color: #008080;  
+    color: #37BFC4;
     font-size: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -66,14 +67,14 @@ nav {
 }
 
 .texto-principal span{
-    color: #008080;
-    text-align: justify;
+    color: #37BFC4;
+    text-align: jsutify;
     font-size: 24px;
 }
 #sobre {
     width: 100%;
-    height: 400px;
-    background: #008080;
+    height: 500px;
+    background: #37BFC4;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -87,8 +88,8 @@ nav {
 }
 #equipe {
     width: 100%;
-    height: 400px;
-    background-color: #008080;
+    height: 600px;
+    background-color: #37BFC4;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -127,21 +128,24 @@ nav {
 .lista-equipe{
     margin-top:10px;
     margin-bottom: 10px;
-    width: 100%;
     background-color: #000;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 380px;
+    margin-right: 50px;
     width: 80%;
 }
 .card{
     text-align: center;
-    width: 30%;
-    height: 250px;
+    width: 25%;
+    height: 400px;
     background: white;
     color:black;
     float:left;
     margin-right: 2%;
     padding: 5px;
+}
+
+.aviso{
+    
 }
 
 .card h4{
@@ -159,14 +163,14 @@ nav {
 
 #recursos {
     width: 100%;
-    height: 400px;
-    background: #ff00ff;
+    height: 500px;
+    background-color: rgb(198, 237, 250);
 }
 
 #contato {
     width: 100%;
-    height: 400px;
-    background: #ffff00;
+    height: 500px;
+    background-color: rgb(198, 237, 250);
 }
 
 .flip-card {
@@ -209,14 +213,30 @@ nav {
   .flip-card-back {
     background-color: #daedf4;
     text-align: center;
-    color: #008080;
+    color: #37BFC4;
     transform: rotateY(180deg);
   }
   .flip-card-back h1 {
     text-align: center;
-    color: #008080;
+    color: #37BFC4;
     padding-top: 15px;
   }
+
+  .card-contribuidores{
+    background: white;
+    color:black;
+    float:center;
+    margin-right: %;
+    padding: 10px;
+}
+
+.rodape{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    background-color: #37BFC4;
+    height: 100px;
+}
 
 @media (max-width: 768px) {
     #principal {
