@@ -2,48 +2,150 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For All</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="topnav">
-            <a class="active" href="#">Conheça nossa equipe</a>
-            <a href="#">Qual nosso objetivo?</a>
-            <a href="#">Qual nosso conteúdo?</a>
-            <a href="#">Um pouco sobre nós</a>
-          </div>
-    </nav>
-    <section> 
-        <div class="row">
-            <div class="col-md-5">
-                <img src="img/doguinho.png"
-                alt="avatar image" class="imagem-principal">
-            </div>
-            <div class="col-md-6">
-            <h1 class="titulo-principal">FOR ALL</h1>
-            <p class="texto-principal">O For All é um site 100% gratuito e seguro, que tem como 
+    <div class="container">
+        <nav>
+            <ul class="itens-menu">
+                <li style="float:left"><a class="active">For All</a></li>
+                <li><a href="#contato">Contato</a> </li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#principal">Home</a></li>
+            </ul>
+        </nav>
+       
+        <section id="principal">
+            <h1>
+                For All
+            </h1>
+            <br>
+            <div class="texto-principal">
+                <span>
+                O For All é um site 100% gratuito que tem como 
                 objetivo levar o acesso a leitura para crianças com deficiência visual e auditiva. Através de audiobooks 
-                e videobooks compartilhados pelos próprios usuários, muitos serão os beneficiados</p>
+                e videobooks compartilhados pelos próprios usuários, muitos serão os beneficiados. Participe você também 
+                enviando materiais!
+                </span>
+            </div> 
+            
+        </section>
+        <section id="sobre">
+            <h1>
+                Sobre o For All
+            </h1>
+            <div class="separador">
+                <hr/>
             </div>
-        </div>
-    </section>
-    <section >
-        <div class="row white">
-            <div class=" col-twelve">
-                <h5>Quem sou eu?</h5>
-                <div class="intro-info">
-                    <img src="img/profile-pic.jpg" alt="Profile Picture">
-                    <p class="lead">Brasileiro, desenvolvedor, entusiasta de software livre, viciado em café e pesquisador político.</p>
-                </div>   			
-            </div>   		
-        </div>
-    </section>
-    <footer class="rodape">
-        2020 ©  Desenvolvido pelos alunos do curso de informática integrado ao ensino médio do Instituto Federal de Santa Catarina
-    </footer>
+           
+            <div class="texto-sobre">
+                <span>
+                    Passe o mouse ou clique para ver nossas funcionalidades: </span> 
+            </div> 
+            <div class="lista-sobre-produto">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="doguinho-fone.png" alt="Avatar" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1 style="color: #008080">Audiobooks</h1> 
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
+                            voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                            similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem 
+                            rerum facilis est et expedita distinctio.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="doguinho-note.png" alt="Avatar" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1 style="color: #008080">Videobooks</h1> 
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
+                            voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                            similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem 
+                            rerum facilis est et expedita distinctio.
+                        </p>
+                      </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="doguinho.png" alt="Avatar" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1 style="color: #008080">John Doe</h1> 
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
+                            voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                            similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem 
+                            rerum facilis est et expedita distinctio.
+                        </p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recursos">
+            Recursos
+        </section>
+        <section id="equipe">
+            <h1>
+                Conheça nossa equipe
+            </h1>
+            <div class="separador">
+                <hr/>
+            </div>
+           
+            <div class="texto-sobre">
+                <span>
+                    Estes são os alunos responsáveis pelo site For All: </span> 
+            </div> 
+            <div class="lista-equipe">
+                <div class="card">
+                    <i class="fa fa-edit fa-5x"></i>
+                    <h4>
+                        Design Responsivo
+                    </h4>
+                    <span>
+                        Bacon ipsum dolor amet leberkas hamburger salami, ground round tri-tip ham biltong chislic cupim rump alcatra sausage sirloin
+                    </span>
+                </div>
+                <div class="card">
+                    <i class="fa fa-edit fa-5x"></i>
+                    <h4>
+                        Performance incrivel!
+                    </h4>
+                    <span>
+                        Bacon ipsum dolor amet leberkas hamburger salami, ground round tri-tip ham biltong chislic cupim rump alcatra sausage sirloin
+                    </span>
+                </div>
+                <div class="card">
+                    <i class="fa fa-edit fa-5x"></i>
+                    <h4>
+                        Bacon ipsum
+                    </h4>
+                    <span>
+                        Bacon ipsum dolor amet leberkas hamburger salami, ground round tri-tip ham biltong chislic cupim rump alcatra sausage sirloin
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            Contato
+        </section>
+        <footer>
+            Rodape
+        </footer>  
+    </div>  
 </body>
 </html>
