@@ -5,25 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For All</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
+    
     <div class="container">
-        <nav>
-            <ul class="itens-menu">
-                <li style="float:left"><a class="active">For All</a></li>
-                <li><a href="#contato">Contato</a> </li>
-                <li><a href="#equipe">Equipe</a></li>
-                <li><a href="#recursos">Recursos</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-            </ul>
-        </nav>
+
+        <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">For All</a>
+                <a href="#contato">Contato</a> 
+                <a href="#equipe">Equipe</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+        </div>
+
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
        
-        <section id="principal" style="font-family: Lora script=latin rev=1; font-weight: 600; font-style: italic;">
+        <section id="principal" >
             <h1>
                 For All
             </h1>
             <br>
-            <div class="texto-principal" style="font-family: Lora script=latin rev=1; font-weight: 600; font-style: italic;">
+            <div class="texto-principal" >
                 <span>
                 O For All é um projeto desenvolvido em forma de website com o intuito de
                 levar o acesso a leitura para crianças com deficiências visual e auditiva através de audiobooks 
@@ -48,7 +63,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
-                        <img src="doguinho-fone.png" alt="Avatar" style="width:300px;height:300px;">
+                        <img src="doguinho-fone.png" alt="Avatar" style="width:100%;height:100%;">
                       </div>
                       <div class="flip-card-back">
                         <h1 style="color: #37BFC4">Audiobooks</h1> 
@@ -63,7 +78,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
-                        <img src="doguinho-note.png" alt="Avatar" style="width:300px;height:300px;">
+                        <img src="doguinho-note.png" alt="Avatar" style="width:100%;height:100%;">
                       </div>
                       <div class="flip-card-back">
                         <h1 style="color: #37BFC4">Videobooks</h1> 
@@ -78,7 +93,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
-                        <img src="doguinho.png" alt="Avatar" style="width:300px;height:300px;">
+                        <img src="doguinho.png" alt="Avatar" style="width:100%;height:100%;">
                       </div>
                       <div class="flip-card-back">
                         <h1 style="color: #37BFC4">O objetivo do For All</h1> 
@@ -144,5 +159,6 @@
             2020 ©  Desenvolvido pelos alunos do curso de informática integrado ao ensino médio do Instituto Federal de Santa Catarina
         </footer>  
     </div>  
+   
 </body>
 </html>
