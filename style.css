@@ -295,3 +295,15 @@ body, h1{
 
 
   }
+
+  .direito{
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-right:10%;
+}
+
+.esquerdo {
+    width: 45%;
+    float: left;
+}
