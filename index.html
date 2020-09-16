@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For All</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -63,7 +63,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
-                        <img src="doguinho-fone.png" alt="Avatar" style="width:100%;height:100%;">
+                        <img src="img/doguinho-fone.png" alt="Avatar" style="width:100%;height:100%;">
                       </div>
                       <div class="flip-card-back">
                         <h1 style="color: #37BFC4">Audiobooks</h1> 
@@ -78,7 +78,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
-                        <img src="doguinho-note.png" alt="Avatar" style="width:100%;height:100%;">
+                        <img src="img/doguinho-note.png" alt="Avatar" style="width:100%;height:100%;">
                       </div>
                       <div class="flip-card-back">
                         <h1 style="color: #37BFC4">Videobooks</h1> 
@@ -93,7 +93,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
-                        <img src="doguinho.png" alt="Avatar" style="width:100%;height:100%;">
+                        <img src="img/doguinho.png" alt="Avatar" style="width:100%;height:100%;">
                       </div>
                       <div class="flip-card-back">
                         <h1 style="color: #37BFC4">O objetivo do For All</h1> 
@@ -111,15 +111,15 @@
         </section>
         <section id="recursos">
             <div class="aviso">
+                <img src="img/doguinho.celular.png" alt="forallzinho de celular" class="imagem-recursos">
                 <h1>Quer fazer parte da comunidade For All? É simples, basta inscrever-se e gravar áudios e vídeos de livros e 
                     disponibilizá-los na galeria abrangente do website
                 </h1>
-                <p>ATENÇÂO!! Para gravar vídeos ou áudios, lembre-se:</p>
-                <p>Procure locais silenciosos com poucas possíveis interefrências sonoras no áudio que será gravado para
+                <p style="font-size: 24px;">ATENÇÂO!! Para gravar vídeos ou áudios, lembre-se:</p>
+                <p style="font-size: 15px;">Procure locais silenciosos com poucas possíveis interefrências sonoras no áudio que será gravado para
                     preservar a qualidade sonora. 
                 </p>
-                <p>
-                    Para o vídeo, é preferivel que o usuário evite intervenções durante a gravação do vídeo em formato de libras,
+                <p style="font-size: 15px;">Para o vídeo, é preferivel que o usuário evite intervenções durante a gravação do vídeo em formato de libras,
                     procurando sempre fazer com que a resolução do video seja boa para que haja o melhor entendimento possível por 
                     parte do usuário que irá assistí-lo
                 </p>
@@ -134,26 +134,42 @@
             </div>
             <div class="texto-sobre">
                 <span>
-                    Estes são os alunos responsáveis pelo site For All: </span> 
+                    Estes são os alunos responsáveis pelo site For All: </span> <br>
             </div> 
             <div class="lista-equipe">
                 <div class="card">
-                    <i class="fa fa-edit fa-5x">
-                        <img src="amanda.aluna.png" alt="Avatar" style="width:90%; height:300px; margin-top: 10px;">
-                    </i>
+                        <img src="img/amanda.aluna.png" alt="Amanda aluna" style="width:90%; height:300px; margin-top: 10px;">
                     <p>Amanda Dall Agnol - Aluna IFSC</p>
                 </div>
                 <div class="card">
-                    <i class="fa fa-edit fa-5x">
-                        <img src="anna.aluna.png" alt="Avatar" style="width:90%; height:300px; margin-top: 10px;">
-                    </i>
+                        <img src="img/anna.aluna.png" alt="Anna aluna" style="width:90%; height:300px; margin-top: 10px;">
                       <p>Anna Beatriz Brandelero Giacomini - Aluna IFSC</p>
                     </div>
                 </div>
+                <div class="card">
+                   <img src="img/equipe.png" alt="equipe" style="width: 30%; height: 110px; margin-top: 5px;">
+                    <p class="titulo-card">Outros alunos do Instituto Federal responsáveis pelo desenvolvimento do projeto: </p> 
+                      <p>Bianca Magistralli - Aluna IFSC</p>
+                      <p>Eduardo Michelin Bittencourt - Aluno IFSC</p>
+                      <p>Rogério Carlos Tomazelli Filho - Aluno IFSC</p>
+                </div>
             </div>
         </section>
-        <section id="contato">
-            Contato
+        <section id="contato" class="formulario"> 
+            <h1>Entre em contato conosco</h1>
+                <i class="fas fa-mobile-alt"></i>
+                <p>Telefone: +55(49)99999-9999</p>
+                <i class="fas fa-at"></i>
+                <p>E-mail: ForAll@email.com</p>
+                <i class="fab fa-instagram"></i>
+                <p>Instagram: @ForAll</p>
+                <i class="far fa-envelope"></i>
+                <p>Nos mande suas dúvidas!!</p>
+                <div>
+                    <label for="msg">Mensagem: </label>
+                    <textarea id="msg"></textarea>
+                    <button>enviar</button>
+                </div>
         </section>
         <footer class="rodape">
             2020 ©  Desenvolvido pelos alunos do curso de informática integrado ao ensino médio do Instituto Federal de Santa Catarina
